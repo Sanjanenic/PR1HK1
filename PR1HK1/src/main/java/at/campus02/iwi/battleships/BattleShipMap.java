@@ -97,7 +97,7 @@ public class BattleShipMap {
 
     // returns the average ship strength of player A ships (positive numbers)
     public double averageShipStrengthPlayerA(){
-int a=totalBattleShipStrength('A'); //pomocna varijabla a koja prima rezultat metode koja racuna snagu brodova za aA igraca
+int a=totalBattleShipStrength('A'); //pomocna varijabla a koja prima rezultat metode koja racuna snagu brodova za A igraca
 double average=0;                          //pomocna koja racuna prosjek
 int nummerOfShips=0;                      //pomocna u koju sacuvavam brojanje brodova
         for(int i = 0; i < map.length; i++) {
